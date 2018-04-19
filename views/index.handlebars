@@ -1,0 +1,24 @@
+<div class="burger">
+<ul class="uneaten">
+{{#each burgers}}
+	{{#unless devoured}}	
+	{{burger_name}} 
+	<button class="ate-bgr" type="subtmit" data-id="{{id}}" id="{{devoured}}" data-newDevour="{{devoured}}">Devour it!</button>
+	{{/unless}}
+{{/each}}
+</ul>
+
+<ul class="eaten">
+	{{#each burgers}}
+	{{#if devoured}}
+	{{burger_name}}
+	{{/if}}
+	{{/each}}
+</ul>
+
+<form class="add-burger">
+	<label>Burger Chain:</label>
+	<input type="text" id="new-burger">
+	<button type="submit" class="bgr-btn">Add Burger Chain</button>
+</form>
+</div>

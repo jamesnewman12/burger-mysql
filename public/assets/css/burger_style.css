@@ -1,0 +1,25 @@
+body {
+	background: url('../img/fastest-growing-burger-chains.png');
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.burger {
+	float: right;
+	padding-top: 30px;
+}
+
+.uneaten {
+	padding: 10px;
+	background-color: blue;
+}
+
+.eaten {
+	padding: 10px;
+	background-color: blue;
+}
+
+.add-burger {
+	padding: 10px;
+	background-color: blue;
+}
